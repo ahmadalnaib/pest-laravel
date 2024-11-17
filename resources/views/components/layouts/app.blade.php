@@ -65,8 +65,8 @@
                     </span>
                 </li>
                 <li>
-                    <span class="font-bold text-lg text-slate-600 hover:text-slate-800 py-1" href="/">Register</a>
-                    </span>
+                    <a class="font-bold text-lg text-slate-600 hover:text-slate-800 py-1" href="{{route('register.index')}}">Register</a>
+                </a>
                 </li>
             </ul>
             @endguest
